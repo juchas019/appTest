@@ -7,7 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import ButtonBase from '@material-ui/core/ButtonBase';
 import BottomNavigation from '@material-ui/core/BottomNavigation';
 import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
-import Favorite from '@material-ui/icons/Favorite';
+// import Favorite from '@material-ui/icons/Favorite';
 
 
 const styles = theme => ({
@@ -93,7 +93,7 @@ class List extends Component {
                                                 onChange={this.handleChange}
                                                 showLabels
                                             >
-                                                <BottomNavigationAction className={classes.fovoriteIcon}label="Lubię!" icon={<Favorite />} />
+                                                {/*<BottomNavigationAction className={classes.fovoriteIcon}label="Lubię!" icon={<Favorite />} />*/}
                                             </BottomNavigation>
                                         </Grid>
                                     </Grid>
